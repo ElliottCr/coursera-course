@@ -1,3 +1,0 @@
-# coursera-course
-
-For tests.
