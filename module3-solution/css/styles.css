@@ -1,0 +1,61 @@
+#navbar-theme {
+    background-color: #999999;
+}
+
+.displayContents {
+    display: contents;
+}
+
+#mobilenav-theme {
+    background-color: white;
+    color: black;
+}
+
+#mobilenav-items {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#menutitle {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.menu{
+    background-color: #999999;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 20px;
+}
+
+.menubar {
+    float: left;
+    width: 100%;
+}
+
+.menuitem {
+    text-align: center;
+    float: right;
+    width: 100%;
+    font-weight: 700;
+}
+
+@media (min-width: 576px) {
+    .desktopHide {
+        display: none;
+    }
+    .menu {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
